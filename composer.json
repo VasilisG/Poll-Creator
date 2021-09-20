@@ -1,0 +1,8 @@
+{
+    "name": "user/pollcreator",
+    "autoload": {
+        "psr-4": {
+            "Poll\\": "poll/"
+        }
+    }
+}
