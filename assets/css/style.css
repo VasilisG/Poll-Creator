@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 :root {
     --bg-color: #31d086;
     --form-color: #282424;
@@ -10,6 +12,10 @@
 
 html, body {
     min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
 }
 
 p {
@@ -33,7 +39,7 @@ body {
 label, .options-info {
     display: block;
     color: var(--title-p-color);
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .main-container {
